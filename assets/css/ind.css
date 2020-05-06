@@ -1,0 +1,45 @@
+*{
+box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+footer{
+    padding: 20px;
+    background: lightblue;
+    color: blue;
+}
+header{
+    padding: 2px;
+}
+section{
+   text-align: center;
+   padding-top: 150px;
+}
+.left{
+    width: 50%;
+    float: left;
+    height: 400px;
+    font-size: 25;
+    background: rgb(241, 155, 155);
+}
+.right{
+    width: 50%;
+    float: left;
+    padding-top: 150px;
+    height: 400px;
+    font-size: 25;
+    background: rgb(194, 228, 125);
+    border-left: 2px solid black;
+}
+.main::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.logo{
+  align-content: left;
+
+}

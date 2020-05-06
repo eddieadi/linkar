@@ -1,0 +1,44 @@
+
+.butt .button {
+    background-color: rgb(16, 8, 90); /* Green */
+    border: 1px solid rgb(16, 8, 90);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+    cursor: pointer;
+    border-radius: 5%;
+    width: 200px;
+    margin-top: 80px;
+    margin-left: 60px;
+    transition: all 0.5s;
+    height: 100px;
+    float: left;
+    display: block;
+  }
+  
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
